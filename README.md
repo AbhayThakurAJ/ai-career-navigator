@@ -26,7 +26,6 @@ AI Career Navigator is a web app that uses Google Gemini AI to suggest personali
 ## ⚙️ Setup (Local)
 
 1. Install dependencies
-```bash
 npm install
 
 2. Create .env.local
