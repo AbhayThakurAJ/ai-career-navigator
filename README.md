@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Career Navigator 🚀
 
-# Run and deploy your AI Studio app
+AI Career Navigator is a web app that uses Google Gemini AI to suggest personalized career paths and generate learning roadmaps based on a user's profile.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1M_Ge12tZDmUqd73nTq86-TTYi53lgKhL
+## ✨ Features
 
-## Run Locally
+- Collects user profile (name, age, gender, education)
+- Suggests 3 personalized career goals using Gemini AI
+- Generates a 1-month, 3-month, and 6-month roadmap
+- Clean modern UI built with React + Vite
+- Powered by Google Gemini API
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠 Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Google Gemini API (`@google/genai`)
+
+---
+
+## ⚙️ Setup (Local)
+
+1. Install dependencies
+```bash
+npm install
+
+2. Create .env.local
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+
+3. Run the app
+npm run dev
+```bash
+npm install
